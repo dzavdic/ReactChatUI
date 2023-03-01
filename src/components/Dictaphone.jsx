@@ -17,7 +17,6 @@ const Dictaphone = ({
   if (!browserSupportsSpeechRecognition) {
     return null;
   }
-
   return (
     <div>
       <button onClick={resetTranscript}>Reset</button>
@@ -25,7 +24,6 @@ const Dictaphone = ({
     </div>
   );
 };
-
 Dictaphone.propTypes = propTypes;
 
 export default SpeechRecognition(Dictaphone);
