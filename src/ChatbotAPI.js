@@ -5,7 +5,7 @@ const API = {
         if (message === "hi") resolve("Welcome to chatbot!");
         else if (message === "Dzeki") resolve(`I recognize you: ${message}`);
         else resolve("I don't recognize you: " + message);
-      }, 500);
+      }, 1000);
     });
   }
 };
